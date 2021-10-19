@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-decoration: none;
+  list-style: none;
+  background-position: center;
+  background-size: cover;
+  min-height: 140vh;
+  width: 100vw;
+}
+
+#dish {
+  width: 100%;
+  background-image: url("dark.jpg");
+  min-height: 140vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#dish .col-7 {
+  border: 0.2rem solid white;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  padding: 3rem 0;
+  -webkit-box-shadow: 0 0 1rem .1rem white;
+          box-shadow: 0 0 1rem .1rem white;
+  position: relative;
+}
+
+#dish .col-7 .input-name input, #dish .col-7 textarea, #dish .col-7 file {
+  width: 70%;
+  height: 4rem;
+  outline: none;
+  border: 0.5 solid white;
+  padding: 0 1rem;
+  resize: none;
+  margin: 1.5rem 0;
+  border-radius: 1rem;
+  font-size: 2rem;
+  -webkit-box-shadow: 0 0 0.3 0.3 white;
+          box-shadow: 0 0 0.3 0.3 white;
+}
+
+#dish textarea {
+  height: 8rem;
+}
+
+#dish .input-name {
+  position: relative;
+}
+
+#dish .input-name h3 {
+  font-family: "Ephesis", cursive;
+  font-size: 2rem;
+  color: white;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+  font-family: "Ephesis", cursive;
+  padding-top: 1rem;
+}
+
+.heading span {
+  color: yellow;
+}
+
+.heading h4 {
+  font-size: 2rem;
+  margin-top: -0.5rem;
+  letter-spacing: 0.8rem;
+  color: white;
+}
+
+.heading h4 span1 {
+  color: #fc0000;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  font-weight: bolder;
+}
+
+.col-6 .input-name input {
+  width: 80%;
+  height: 4rem;
+  outline: none;
+  border: 0.5 solid white;
+  padding: 0 1rem;
+  resize: none;
+  margin: 1.5rem 0;
+  border-radius: 1rem;
+  font-size: 2rem;
+  -webkit-box-shadow: 0 0 0.3 0.3 white;
+          box-shadow: 0 0 0.3 0.3 white;
+}
+
+.main-div {
+  min-height: 100vh;
+  width: 100%;
+  background-color: white;
+  padding: 0 4rem;
+}
+
+.main-div h3 {
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: black;
+  font-weight: bolder;
+  font-family: "Ephesis", cursive;
+  letter-spacing: .5rem;
+}
+
+.main-div .centerdiv {
+  background-color: white;
+  width: 80%;
+  padding: 0;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+table {
+  border-radius: 1rem !important;
+}
+
+table tr, table th, table td {
+  font-size: 1.6rem;
+}
+
+table td {
+  position: relative;
+}
+
+table img {
+  width: 5rem;
+  height: 6.5rem;
+}
+
+table .fa-edit {
+  color: greenyellow;
+}
+
+table .fa-trash {
+  color: red;
+}
+/*# sourceMappingURL=chef.css.map */
